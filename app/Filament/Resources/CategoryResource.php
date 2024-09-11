@@ -30,7 +30,6 @@ class CategoryResource extends Resource
 
                 Forms\Components\FileUpload::make('icon')
                     ->image()
-                    ->directory('categories/icons') // ala wira
                     ->required(),
             ]);
     }
